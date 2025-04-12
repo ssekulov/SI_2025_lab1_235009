@@ -1,0 +1,24 @@
+*   63dfd5e (HEAD -> master, origin/master) Merge branch '9-mark-all-tasks-in-a-category-as-completed'
+|\  
+| * 0a5c86d (origin/9-mark-all-tasks-in-a-category-as-completed, 9-mark-all-tasks-in-a-category-as-completed) Implement markCategoryCompleted
+* |   08fadcd Merge pull request #11 from ssekulov/8-mark-a-task-as-completed-by-name
+|\ \  
+| * | 8205c9b (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name) Implement markTaskCompleted function
+| |/  
+* |   48521c5 Merge pull request #10 from ssekulov/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 92f4ed3 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implement removeTask function
+|/  
+* 76387aa Add starter code
+* d34bb43 Initial commit
+
+63dfd5e (HEAD -> master, origin/master) Merge branch '9-mark-all-tasks-in-a-category-as-completed'
+08fadcd Merge pull request #11 from ssekulov/8-mark-a-task-as-completed-by-name
+48521c5 Merge pull request #10 from ssekulov/1-remove-a-task-by-name
+0a5c86d (origin/9-mark-all-tasks-in-a-category-as-completed, 9-mark-all-tasks-in-a-category-as-completed) Implement markCategoryCompleted
+8205c9b (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name) Implement markTaskCompleted function
+92f4ed3 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implement removeTask function
+76387aa Add starter code
+d34bb43 Initial commit

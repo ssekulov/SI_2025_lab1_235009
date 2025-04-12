@@ -1,0 +1,30 @@
+mkdir SI_2025_lab1_235009
+cd SI_2025_lab1_235009
+git init
+git remote add origin https://github.com/ssekulov/SI_2025_lab1_235009.git
+echo " Stefan Sekulov 235009" >> README.md
+git add README.md
+git commit -am "Initial commit"
+nano SI2025Lab1Main.java | `Paste the starter code`
+git add SI2025Lab1Main.java
+git commit -am "Add starter code"
+git push origin master
+
+git fetch origin
+git checkout 1-remove-a-task-by-name
+git add SI2025Lab1Main.java
+git commit -am "Implement removeTask function"
+
+git checkout 8-mark-a-task-as-completed-by-name
+git add SI2025Lab1Main.java
+git commit -am "Implement markTaskCompleted function"
+
+git checkout 9-mark-all-tasks-in-a-category-as-completed
+git add SI2025Lab1Main.java
+git commit -am "Implement markCategoryCompleted function"
+
+#after the pull requests
+git checkout master
+git pull origin master | update my local repo
+git merge --no-ff 9-mark-all-tasks-in-a-category-as-completed
+git push origin master
